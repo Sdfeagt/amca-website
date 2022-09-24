@@ -1,4 +1,3 @@
-import NavBar from "./components/NavBar"
 import {Route, Routes} from "react-router-dom"
 import Home from './components/Home'
 import About from './components/About'
@@ -6,11 +5,13 @@ import Board from './components/Board'
 import Contact from './components/Contact'
 import Blog from './components/Blog'
 import Join from './components/Join'
+import Footer from "./components/Footer"
+import Header from "./components/Header"
 
 function App() {
   return (
   <div className="App">
-    <NavBar/>
+    <Header/>
         <Routes>
 
             <Route path = "/" element={
@@ -38,7 +39,7 @@ function App() {
             }/>
 
         </Routes>
-    
+    <Footer/>
     </div>
   );
 }

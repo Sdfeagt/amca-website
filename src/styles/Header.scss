@@ -1,0 +1,72 @@
+$background:	rgb(129, 133, 137);
+$blue_main: rgb(0,25,236);
+$green_main: rgb(85,251,220);
+*{
+    box-sizing: 0;
+}
+.Header{
+    background-color: $background;
+    align-items: stretch;
+}
+.Logo{
+    display:contents;
+    justify-content: flex-start;
+}
+
+.container {
+    margin: 1rem;
+    text-align: center;
+  }
+@font-face {
+    font-family: 'Din-2014';
+    src: url(//db.onlinewebfonts.com/c/e0fa406cbe458b32a7ea4e9a379b85fc?family=DIN+2014) format('truetype');
+}
+
+.Navbar {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.Navbar li {
+    color: $green_main;
+    justify-content: space-between;
+    font-family: Helvetica, sans-serif;
+    display: inline-flex;
+    margin: 10px;
+    
+}
+.Navbar a {
+    text-decoration: none;
+    color: $green_main;
+}
+
+
+.Navbar a:hover{
+    display: inline-block;
+    position: relative;
+    color: $green_main;
+  }
+  
+  .Navbar a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $green_main;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .Navbar a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+body{
+    margin: 0;
+    padding: 0;
+}
+

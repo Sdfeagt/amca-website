@@ -12,13 +12,12 @@ const NavBar = () => {
                 </Link>
             </li>
 
-
         )
     }
   return (
     <nav className='Navbar'>
-        <Link to="/" className="Site-title">Home</Link>
         <ul>
+        <CustomLink to="/">Home</CustomLink>
         <CustomLink to="/join">Join us</CustomLink>
         <CustomLink to="/about">About</CustomLink>
         <CustomLink to="/board">Board</CustomLink>
