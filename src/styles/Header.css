@@ -1,51 +1,41 @@
+@font-face {
+  font-family: "Din-2014";
+  src: url(//db.onlinewebfonts.com/c/e0fa406cbe458b32a7ea4e9a379b85fc?family=DIN+2014) format("truetype");
+}
 * {
   box-sizing: 0;
 }
 
 .Header {
   background-color: rgb(129, 133, 137);
-  align-items: stretch;
 }
 
 .Logo {
-  display: contents;
-  justify-content: flex-start;
+  display: inline;
 }
 
-.container {
-  margin: 1rem;
-  text-align: center;
+.Nav {
+  float: right;
+  display: inline;
+  background-color: black;
 }
-
-@font-face {
-  font-family: "Din-2014";
-  src: url(//db.onlinewebfonts.com/c/e0fa406cbe458b32a7ea4e9a379b85fc?family=DIN+2014) format("truetype");
-}
-.Navbar {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.Navbar li {
+.Nav ul {
   color: rgb(85, 251, 220);
   justify-content: space-between;
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica;
   display: inline-flex;
   margin: 10px;
 }
-
-.Navbar a {
+.Nav a {
   text-decoration: none;
   color: rgb(85, 251, 220);
 }
-
-.Navbar a:hover {
+.Nav a:hover {
   display: inline-block;
   position: relative;
   color: rgb(85, 251, 220);
 }
-
-.Navbar a:after {
+.Nav a:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -57,8 +47,7 @@
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-
-.Navbar a:hover:after {
+.Nav a:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }

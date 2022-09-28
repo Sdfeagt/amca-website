@@ -6,11 +6,11 @@ const NavBar = () => {
         const resolvedPath = useResolvedPath(to)
         const isActive = useMatch({path: resolvedPath.pathname, end: true})
         return(
-            <li className={isActive ? "active" : ""}>
+            <ul className={isActive ? "active" : ""}>
                 <Link to={to} {...props}>
                     {children}
                 </Link>
-            </li>
+            </ul>
 
         )
     }

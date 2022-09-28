@@ -9,7 +9,7 @@ const Header = () => {
             <section className='Logo'>
               <img src='logomark.teal__1_-removebg-preview.png' alt='Logo' width={100} height={100}></img>
             </section>
-            <section><NavBar/></section>
+            <section className='Nav'><NavBar/></section>
         </section>
     </section>
   )
