@@ -2,23 +2,17 @@
   font-family: "Din-2014";
   src: url(//db.onlinewebfonts.com/c/e0fa406cbe458b32a7ea4e9a379b85fc?family=DIN+2014) format("truetype");
 }
-* {
-  box-sizing: 0;
-}
-
 .Header {
-  background-color: rgb(129, 133, 137);
+  background-color: rgb(13, 12, 39);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .Logo {
-  display: inline;
+  cursor: pointer;
 }
 
-.Nav {
-  float: right;
-  display: inline;
-  background-color: black;
-}
 .Nav ul {
   color: rgb(85, 251, 220);
   justify-content: space-between;
@@ -27,8 +21,10 @@
   margin: 10px;
 }
 .Nav a {
+  display: block;
   text-decoration: none;
   color: rgb(85, 251, 220);
+  padding: 2vh 2vh;
 }
 .Nav a:hover {
   display: inline-block;
