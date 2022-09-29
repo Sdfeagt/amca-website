@@ -6,7 +6,7 @@ import{useCallback} from 'react';
 
 
 
-const Header = (event) => {
+const Header = () => {
   const navigate = useNavigate()
   const handleOnClick = useCallback(() => navigate('/', {replace: true}), [navigate]);
   return (

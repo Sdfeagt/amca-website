@@ -1,0 +1,29 @@
+@import "./Variables";
+
+*{
+    font-family: 'Helvetica';
+}
+
+.First-look{
+    background-color: $background;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+
+    h1 {
+        color: $green_main;
+        align-content: space-between;
+        font-size: 400%;
+    }
+    
+    p{
+        color: $green_main;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}

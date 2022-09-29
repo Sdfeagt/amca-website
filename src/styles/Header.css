@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "Din-2014";
-  src: url(//db.onlinewebfonts.com/c/e0fa406cbe458b32a7ea4e9a379b85fc?family=DIN+2014) format("truetype");
-}
 .Header {
   background-color: rgb(13, 12, 39);
   display: flex;
@@ -16,7 +12,7 @@
 .Nav ul {
   color: rgb(85, 251, 220);
   justify-content: space-between;
-  font-family: Helvetica;
+  font-family: "Helvetica";
   display: inline-flex;
   margin: 10px;
 }

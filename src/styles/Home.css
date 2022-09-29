@@ -1,0 +1,24 @@
+* {
+  font-family: "Helvetica";
+}
+
+.First-look {
+  background-color: rgb(13, 12, 39);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.First-look h1 {
+  color: rgb(85, 251, 220);
+  align-content: space-between;
+  font-size: 400%;
+}
+.First-look p {
+  color: rgb(85, 251, 220);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=Home.css.map */
