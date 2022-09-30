@@ -2,6 +2,10 @@
   font-family: "Helvetica";
 }
 
+* {
+  font-family: "Helvetica";
+}
+
 .First-look {
   background-color: rgb(13, 12, 39);
   display: flex;
@@ -14,8 +18,35 @@
   align-content: space-between;
   font-size: 400%;
 }
+.First-look h2 {
+  color: rgb(85, 251, 220);
+  align-content: space-between;
+  font-size: 200%;
+}
 .First-look p {
   color: rgb(85, 251, 220);
+}
+
+.HomeSlide {
+  display: flex;
+  align-items: center;
+  text-align: initial;
+  justify-content: space-around;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.HomeSlide img {
+  max-height: 35%;
+  max-width: 35%;
+}
+.HomeSlide .Content {
+  text-align: center;
+}
+.HomeSlide .Content h2 {
+  padding-bottom: 15%;
+}
+.HomeSlide .Content p {
+  padding-bottom: 15%;
 }
 
 * {

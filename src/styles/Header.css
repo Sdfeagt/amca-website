@@ -1,3 +1,7 @@
+* {
+  font-family: "Helvetica";
+}
+
 .Header {
   background-color: rgb(13, 12, 39);
   display: flex;

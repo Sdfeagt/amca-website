@@ -1,24 +1,23 @@
 import React, {useCallback} from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
 
-const HomeSlide = (WhereToSend) => {
-  console.log("Sending to", WhereToSend);
+import '../styles/Home.css'
+
+
+const HomeSlide = ({slide}) => {
+  console.log("Sending to", slide.send);
   const navigate = useNavigate()
-  const handleOnClick = useCallback(() => navigate(`/${WhereToSend}`, {replace: true}), [WhereToSend, navigate]);
-
+  const handleOnClick = useCallback(() => navigate(`/${slide.send}`, {replace: true}), [slide.send, navigate]);
   return (
     <div className='HomeSlide'>
-      <div className='Image'>
-        <img src='IMG_6920.jpg' alt='Rafal_pic'></img>
-      </div>
+    <img src='IMG_6920.jpg' alt='Rafal_pic'></img>
     <div className='Content'>
     <div>
-      <h2>Important text!</h2>
-      <p>Text text text text</p>
+      <h2>{slide.big}</h2>
+      <p>{slide.small}</p>
       <button onClick={handleOnClick}>Send me there!</button>
     </div>
     </div>
-
     </div>
   )
 }
