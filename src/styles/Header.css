@@ -18,34 +18,34 @@
   justify-content: space-between;
   font-family: "Helvetica";
   display: inline-flex;
-  margin: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding-inline: 5px;
 }
 .Nav a {
-  display: block;
-  text-decoration: none;
   color: rgb(85, 251, 220);
+  position: relative;
+  text-decoration: none;
+  display: block;
   padding: 2vh 2vh;
 }
-.Nav a:hover {
-  display: inline-block;
-  position: relative;
-  color: rgb(85, 251, 220);
-}
-.Nav a:after {
+.Nav a::before {
   content: "";
   position: absolute;
   width: 100%;
-  transform: scaleX(0);
   height: 2px;
+  border-radius: 4px;
+  background-color: rgb(85, 251, 220);
   bottom: 0;
   left: 0;
-  background-color: rgb(85, 251, 220);
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
 }
-.Nav a:hover:after {
+.Nav a:hover::before {
+  transform-origin: left;
   transform: scaleX(1);
-  transform-origin: bottom left;
 }
 
 body {
