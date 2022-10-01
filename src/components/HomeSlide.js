@@ -10,12 +10,12 @@ const HomeSlide = ({slide}) => {
   const handleOnClick = useCallback(() => navigate(`/${slide.send}`, {replace: true}), [slide.send, navigate]);
   return (
     <div className='HomeSlide'>
-    <img src='IMG_6920.jpg' alt='Rafal_pic'></img>
+    <img src={slide.src} alt={slide.alt}></img>
     <div className='Content'>
     <div>
       <h2>{slide.big}</h2>
       <p>{slide.small}</p>
-      <button onClick={handleOnClick}>Send me there!</button>
+      <button className='Button' onClick={handleOnClick}>Send me there!</button>
     </div>
     </div>
     </div>

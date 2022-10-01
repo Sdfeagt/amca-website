@@ -21,7 +21,7 @@ const NavBar = () => {
         <CustomLink to="/join">Join us</CustomLink>
         <CustomLink to="/about">About</CustomLink>
         <CustomLink to="/board">Board</CustomLink>
-        <CustomLink to="/Blog">Blog</CustomLink>
+        <CustomLink to="/events">Events</CustomLink>
         <CustomLink to="/contact">Contact</CustomLink>
         </ul>
     </nav>

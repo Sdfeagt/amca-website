@@ -26,6 +26,22 @@
 .First-look p {
   color: rgb(85, 251, 220);
 }
+.First-look .Button {
+  background-color: rgb(13, 12, 39);
+  cursor: pointer;
+  color: rgb(85, 251, 220);
+  width: 140px;
+  height: 50px;
+  border-width: 1px;
+  font-size: 15px;
+  border-width: 1px;
+  border-color: rgb(85, 251, 220);
+}
+.First-look .Button:hover {
+  background-color: rgb(85, 251, 220);
+  color: rgb(13, 12, 39);
+  transition: 0.2s ease-in-out;
+}
 
 .HomeSlide {
   display: flex;
@@ -33,7 +49,6 @@
   text-align: initial;
   justify-content: space-around;
   padding-top: 10%;
-  padding-bottom: 10%;
 }
 .HomeSlide img {
   max-height: 35%;

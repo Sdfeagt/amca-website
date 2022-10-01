@@ -3,10 +3,10 @@ import Home from './components/Home'
 import About from './components/About'
 import Board from './components/Board'
 import Contact from './components/Contact'
-import Blog from './components/Blog'
 import Join from './components/Join'
 import Footer from "./components/Footer"
 import Header from "./components/Header"
+import Events from "./components/Events"
 
 function App() {
   return (
@@ -26,8 +26,8 @@ function App() {
                 <Board/>
             }/>
 
-            <Route path = "/blog" element={
-                <Blog/>
+            <Route path = "/events" element={
+                <Events/>
             }/>
 
             <Route path = "/contact" element={
