@@ -45,8 +45,7 @@
 
 .HomeSlide {
   display: flex;
-  align-items: center;
-  text-align: initial;
+  align-items: stretch;
   justify-content: space-around;
   padding-top: 10%;
 }
@@ -54,13 +53,39 @@
   max-height: 35%;
   max-width: 35%;
 }
+.HomeSlide img:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.2);
+}
 .HomeSlide .Content {
   text-align: center;
+  text-align: left;
 }
 .HomeSlide .Content h2 {
-  padding-bottom: 15%;
+  vertical-align: top;
 }
 .HomeSlide .Content p {
+  padding-bottom: 15%;
+}
+
+.HomeSlideRev {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  padding-top: 10%;
+}
+.HomeSlideRev img {
+  max-height: 35%;
+  max-width: 35%;
+}
+.HomeSlideRev .ContentRev {
+  text-align: center;
+  text-align: right;
+}
+.HomeSlideRev .ContentRev h2 {
+  vertical-align: top;
+}
+.HomeSlideRev .ContentRev p {
   padding-bottom: 15%;
 }
 

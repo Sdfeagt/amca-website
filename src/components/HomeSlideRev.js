@@ -8,8 +8,8 @@ const HomeSlideRev = ({slide}) => {
     const navigate = useNavigate()
     const handleOnClick = useCallback(() => navigate(`/${slide.send}`, {replace: true}), [slide.send, navigate]);
     return (
-      <div className='HomeSlide'>
-      <div className='Content'>
+      <div className='HomeSlideRev'>
+      <div className='ContentRev'>
       <div>
         <h2>{slide.big}</h2>
         <p>{slide.small}</p>

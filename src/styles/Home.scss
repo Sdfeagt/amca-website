@@ -47,8 +47,7 @@
 
 .HomeSlide {
     display: flex;
-    align-items: center;
-    text-align: initial;
+    align-items: stretch;
     justify-content: space-around;
     padding-top: 10%;
     img {
@@ -56,10 +55,39 @@
         max-width: 35%;
           
     }
+    img:hover {
+        transition: transform .3s ease-in-out;
+        transform: scale(1.2);
+      }
     .Content{
         text-align: center;
+        text-align: left;
+        
     h2 {
+        vertical-align: top;
+    }        
+    p {
         padding-bottom: 15%;
+    }
+    }
+}
+
+.HomeSlideRev{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    padding-top: 10%;
+    img {
+        max-height: 35%;
+        max-width: 35%;
+          
+    }
+    .ContentRev{
+        text-align: center;
+        text-align: right;
+        
+    h2 {
+        vertical-align: top;
     }        
     p {
         padding-bottom: 15%;
