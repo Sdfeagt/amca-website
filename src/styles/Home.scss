@@ -4,7 +4,7 @@
     font-family: 'Helvetica';
 }
 
-.First-look{
+.HomePage{
     background-color: $background;
     display: flex;
     justify-content: center;
@@ -25,6 +25,11 @@
     }
     p{
         color: $green_main;
+
+    }
+    .WelcomeStuff{
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
     .Button{
         background-color: $background;

@@ -5,13 +5,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+ 
 }
 .Logo{
   cursor: pointer;
 }
 
-.Nav {    
+
+.Nav {   
     ul {
         color: $green_main;
         justify-content: space-between;

@@ -5,3 +5,14 @@ $green_main: rgb(85,251,220);
 *{
     font-family: 'Helvetica';
 }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -20%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }

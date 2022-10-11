@@ -28,4 +28,14 @@
 }
 .Footer .footer-social img:hover {
   transform: scale(1.2);
+}
+.Footer .footer-sponsors {
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+.Footer img {
+  max-width: 15%;
+  max-height: 15%;
 }/*# sourceMappingURL=Footer.css.map */

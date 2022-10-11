@@ -2,31 +2,56 @@
   font-family: "Helvetica";
 }
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
 * {
   font-family: "Helvetica";
 }
 
-.First-look {
+.HomePage {
   background-color: rgb(13, 12, 39);
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
 }
-.First-look h1 {
+.HomePage h1 {
   color: rgb(85, 251, 220);
   align-content: space-between;
   font-size: 400%;
 }
-.First-look h2 {
+.HomePage h2 {
   color: rgb(85, 251, 220);
   align-content: space-between;
   font-size: 200%;
 }
-.First-look p {
+.HomePage p {
   color: rgb(85, 251, 220);
 }
-.First-look .Button {
+.HomePage .WelcomeStuff {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.HomePage .Button {
   background-color: rgb(13, 12, 39);
   cursor: pointer;
   color: rgb(85, 251, 220);
@@ -37,7 +62,7 @@
   border-width: 1px;
   border-color: rgb(85, 251, 220);
 }
-.First-look .Button:hover {
+.HomePage .Button:hover {
   background-color: rgb(85, 251, 220);
   color: rgb(13, 12, 39);
   transition: 0.2s ease-in-out;

@@ -23,11 +23,20 @@
         max-height: 4%;
         cursor: pointer;
         transition: transform .2s;
-
         }
-          
         img:hover {
             transform: scale(1.2);
           }
     }
+
+    .footer-sponsors{
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        display: flex;
+        justify-content:space-around;
+    }
+    img{
+        max-width:  15%;
+        max-height: 15%;
+        }
 }
