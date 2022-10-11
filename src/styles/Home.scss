@@ -59,6 +59,10 @@
     }
     img:hover{
         transform: scale(1.05); 
+        box-shadow:
+        1px 1px $green_main,
+        2px 2px $green_main,
+        3px 3px $green_main;
     }
     .Content{
         text-align: center;
@@ -87,6 +91,11 @@
     }
     img:hover{
         transform: scale(1.05); 
+        box-shadow:
+        -1px 1px $green_main,
+        -2px 2px $green_main,
+        -3px 3px $green_main,
+    }
     }
     .ContentRev{
         text-align: center;
@@ -99,7 +108,6 @@
         padding-bottom: 15%;
     }
     }
-}
 *{
     margin: 0;
     padding: 0;

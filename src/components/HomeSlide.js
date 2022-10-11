@@ -10,7 +10,7 @@ const HomeSlide = ({slide}) => {
   const handleOnClick = useCallback(() => navigate(`/${slide.send}`, {replace: true}), [slide.send, navigate]);
   return (
     <div className='HomeSlide'>
-    <img src={slide.src} alt={slide.alt}></img>
+    <img src={slide.src} alt={slide.alt} onClick={handleOnClick}></img>
     <div className='Content'>
     <div>
       <h2>{slide.big}</h2>
