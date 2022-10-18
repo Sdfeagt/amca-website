@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import '../styles/Join.css'
 
 const Join = () => {
   const [name, setName] = useState('')
@@ -30,8 +31,8 @@ const Join = () => {
 
 
   return (
-    <div>
-    <form>
+    <div className='JoinPage'>
+    <form className='JoinForm'>
     <label>
       Name:
       <input type="text" name="name" value={name} onChange={setNameChange}/>
@@ -77,7 +78,7 @@ const Join = () => {
         <option value="later">Other</option>
       </select>
     </label>
-    <input type="submit" value="Submit" />
+    <input type="submit" value="Submit" className='submitbtn' />
   </form>
   </div>
   )

@@ -1,0 +1,32 @@
+@import "./Variables";
+.JoinPage{
+    background-color: $background;
+    .JoinForm{
+        label{
+            display: block;
+            color: $green_main;
+            padding: 1%;
+        }
+        input, textarea, select{
+            display: block;
+            width: 100%;
+        }
+
+        .submitbtn{
+            background-color: $background;
+            cursor: pointer;
+            color: $green_main;
+            width:140px;
+            height:50px;
+            border-width:1px;
+            font-size:15px;
+            border-width:1px;
+            border-color: $green_main;
+        }
+        .submitbtn:hover{
+            background-color: $green_main;
+            color: $background;
+            transition:0.2s ease-in-out;
+        }
+    }
+}
