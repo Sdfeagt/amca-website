@@ -8,7 +8,7 @@ import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Events from "./components/Events"
 
-function App() {
+const App=()=> {
   return (
   <div className="App">
     <Header/>

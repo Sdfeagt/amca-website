@@ -24,19 +24,34 @@
   }
 }
 .JoinPage {
-  background-color: rgb(13, 12, 39);
+  background-color: rgb(35, 42, 45);
+}
+.JoinPage h1 {
+  color: rgb(85, 251, 220);
+  text-align: center;
+}
+.JoinPage .JoinForm {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 .JoinPage .JoinForm label {
   display: block;
   color: rgb(85, 251, 220);
   padding: 1%;
+  font-size: medium;
 }
 .JoinPage .JoinForm input, .JoinPage .JoinForm textarea, .JoinPage .JoinForm select {
   display: block;
   width: 100%;
+  font-family: inherit;
+  font-size: large;
+  height: 4vh;
+  background-color: rgb(218, 218, 218);
 }
 .JoinPage .JoinForm .submitbtn {
-  background-color: rgb(13, 12, 39);
+  background-color: rgb(35, 42, 45);
   cursor: pointer;
   color: rgb(85, 251, 220);
   width: 140px;
@@ -48,6 +63,6 @@
 }
 .JoinPage .JoinForm .submitbtn:hover {
   background-color: rgb(85, 251, 220);
-  color: rgb(13, 12, 39);
+  color: rgb(35, 42, 45);
   transition: 0.2s ease-in-out;
 }/*# sourceMappingURL=Join.css.map */

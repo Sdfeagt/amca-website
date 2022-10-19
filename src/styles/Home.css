@@ -28,7 +28,7 @@
 }
 
 .HomePage {
-  background-color: rgb(13, 12, 39);
+  background-color: rgb(35, 42, 45);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -52,7 +52,7 @@
   padding-bottom: 3%;
 }
 .HomePage .Button {
-  background-color: rgb(13, 12, 39);
+  background-color: rgb(35, 42, 45);
   cursor: pointer;
   color: rgb(85, 251, 220);
   width: 140px;
@@ -64,7 +64,7 @@
 }
 .HomePage .Button:hover {
   background-color: rgb(85, 251, 220);
-  color: rgb(13, 12, 39);
+  color: rgb(35, 42, 45);
   transition: 0.2s ease-in-out;
 }
 

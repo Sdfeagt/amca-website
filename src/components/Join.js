@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
+
 import '../styles/Join.css'
+
 
 const Join = () => {
   const [name, setName] = useState('')
@@ -9,6 +11,7 @@ const Join = () => {
   const [uni, setUni] = useState('')
   const [field, setField] = useState('')
   const [gradyear, setGradyear] = useState(2022)
+  
 
   const setNameChange = (event) =>{
     setName(event.target.value)
@@ -32,6 +35,7 @@ const Join = () => {
 
   return (
     <div className='JoinPage'>
+      <h1>Join our Assosiation!</h1>
     <form className='JoinForm'>
     <label>
       Name:
