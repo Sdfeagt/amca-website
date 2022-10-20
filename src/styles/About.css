@@ -43,16 +43,20 @@
   padding-top: 3%;
   padding-bottom: 3%;
 }
+.aboutPage .Entrance p {
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 150%;
+}
 .aboutPage .Content {
   display: flex;
   align-items: stretch;
   justify-content: space-around;
-  padding-top: 10vh;
+  padding-top: 15vh;
 }
 .aboutPage .Content .textstuff {
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
+  width: 25%;
 }
 .aboutPage .ContentRev {
   display: flex;
@@ -61,7 +65,5 @@
   padding-top: 10vh;
 }
 .aboutPage .ContentRev .textstuffRev {
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
+  width: 25%;
 }/*# sourceMappingURL=About.css.map */

@@ -20,14 +20,22 @@
         padding-top: 3%;
         padding-bottom: 3%;
     }
+    .Entrance{
+        p{
+            justify-content: center;
+            padding-left: 20%;
+            padding-right: 20%;
+            font-size: 150%;
+        }
+    }
 
     .Content{
         display: flex;
         align-items: stretch;
         justify-content: space-around;
-        padding-top: 10vh;
+        padding-top: 15vh;
         .textstuff{
-            width: min-content;
+            width: 25%;
         }
     }
 
@@ -38,7 +46,7 @@
         justify-content: space-around;
         padding-top: 10vh; 
         .textstuffRev{
-            width: min-content;
+            width: 25%;
         }
     }
 }
