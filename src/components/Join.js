@@ -32,35 +32,54 @@ const Join = () => {
     setGradyear(event.target.value)
   }
 
+  const addPerson = (event) =>{
+      //TODO: eventually export the logic to app.js. To be done before backend
+    event.preventDefault()
+const personObject = {
+  name: name,
+  surname: surname,
+  mail: mail,
+  uni: uni,
+  field:field,
+  gradYear: gradyear,
+}
+setName('')
+setSurname('')
+setMail('')
+setUni('')
+setField('')
+setGradyear(2022)
+  }
+
 
   return (
     <div className='JoinPage'>
       <h1>Join our Assosiation!</h1>
-    <form className='JoinForm'>
+    <form className='JoinForm' onSubmit={addPerson}>
     <label>
       Name:
-      <input type="text" name="name" value={name} onChange={setNameChange}/>
+      <input type="text" name="name" value={name} id='name' onChange={setNameChange}/>
     </label>
     <label>
       Surname:
-      <input type="text" name="surname" value={surname} onChange={setSurnameChange}/>
+      <input type="text" name="surname" value={surname} id='surname' onChange={setSurnameChange}/>
     </label>
     <label>
       Email:
-      <input type="text" name="mail" value={mail} onChange={setMailChange}/>
+      <input type="text" name="mail" value={mail} id='mail' onChange={setMailChange}/>
     </label>
     <label>
       University:
-      <select value={uni} onChange={setUniChange}>
-        <option value="AaltoUni" selected="selected">Aalto University</option>
+      <select onChange={setUniChange} id='uni' defaultValue='AaltoUni'>
+        <option value="AaltoUni">Aalto University</option>
         <option value="HelsinkiUni">Helsinki University</option>
-        <option selected value="otherUni">Other</option>
+        <option value="otherUni">Other</option>
       </select>
     </label>
     <label>
       Field of study:
-      <select value={field} onChange={setFieldChange}>
-        <option value="ELEC" selected="selected">ELEC</option>
+      <select onChange={setFieldChange} id='field' defaultValue='ELEC'>
+        <option value="ELEC">ELEC</option>
         <option value="SCI">SCI</option>
         <option value="CHEM">CHEM</option>
         <option value="ENG">ENG</option>
@@ -71,8 +90,8 @@ const Join = () => {
     </label>
     <label>
       Graduation year:
-      <select value={gradyear} onChange={setGradyearChange}>
-        <option value="grad 2022" selected="selected">2022</option>
+      <select onChange={setGradyearChange} id='grad' defaultValue='grad 2022'>
+        <option value="grad 2022">2022</option>
         <option value="grad 2023">2023</option>
         <option value="grad 2024">2024</option>
         <option value="grad 2025">2025</option>

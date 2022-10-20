@@ -1,0 +1,44 @@
+@import "./Variables";
+
+.aboutPage{
+    background-color: $background;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    h1{
+        font-size: 400%;
+        color: $green_main;
+
+    }
+    h2{
+        font-size: 200%;
+        color: $green_main;
+    }
+    p{
+        color: $green_main;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .Content{
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        padding-top: 10vh;
+        .textstuff{
+            width: min-content;
+        }
+    }
+
+    .ContentRev{
+        //To be left alone despite being a copy of .Content, animations in the future might differ
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        padding-top: 10vh; 
+        .textstuffRev{
+            width: min-content;
+        }
+    }
+}
