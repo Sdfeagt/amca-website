@@ -18,7 +18,8 @@ const About = () => {
         <p>
         We are a student organization in Aalto University that 
         aims to support the development of its members in the skills 
-        required for a career in management consulting, and to improve the readiness of members for working life.
+        required for a career in management consulting, and to improve
+         the readiness of members for working life.
         </p>
         </div>
       </div>
@@ -28,10 +29,10 @@ const About = () => {
       <div className='textstuffRev'>
         <div>
         <p>
-        TexttexttextTexttexttextTexttexttextTexttexttextTexttexttextTexttexttext
-        TexttexttextTexttexttextTexttexttextTexttexttextTexttexttextTexttexttext
-        TexttexttextTexttexttextTexttexttextTexttexttextTexttexttextTexttexttext
-        TexttexttextTexttexttextTexttexttextTexttexttextTexttexttextTexttexttext
+        We belive that the field of consulting would greatly benefit by opening it's doors to 
+        previously untapped pool of talented students. By organizing different events, such as CV 
+        clinics, keynote speeches and other networking events we hope to bring Aalto community closer 
+        to the field of consulting.
         </p>
         </div>
       </div>

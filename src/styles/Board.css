@@ -1,0 +1,52 @@
+* {
+  font-family: "Helvetica";
+}
+
+.BoardPage {
+  background-color: rgb(35, 42, 45);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.BoardPage h1 {
+  color: rgb(85, 251, 220);
+  align-content: space-between;
+  font-size: 400%;
+}
+.BoardPage h2 {
+  color: rgb(85, 251, 220);
+  align-content: space-between;
+  font-size: 300%;
+}
+.BoardPage p {
+  color: rgb(85, 251, 220);
+  padding-bottom: 5%;
+}
+.BoardPage h3 {
+  color: rgb(85, 251, 220);
+  align-content: space-between;
+  font-size: 150%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.BoardPage .BoardSlide {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  padding-top: 10vh;
+}
+.BoardPage .BoardSlide img {
+  height: 35%;
+  width: 35%;
+  transition: transform 0.2s;
+}
+.BoardPage .BoardSlide img:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 1px rgb(85, 251, 220), 2px 2px rgb(85, 251, 220), 3px 3px rgb(85, 251, 220);
+}
+.BoardPage .BoardSlide .Content {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}/*# sourceMappingURL=Board.css.map */
