@@ -13,7 +13,7 @@ const Home = () => {
     big: "Important text for about slide about",
     small: "Less important text for about slide about",
     send: "about",
-    src: 'IMG_6920.jpg',
+    src: 'IMG_6920.png',
     alt: 'Rafal pic'
   }
 
