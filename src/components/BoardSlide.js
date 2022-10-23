@@ -10,8 +10,8 @@ const BoardSlideRev = ({member}) => {
       <div>
         <h2>{member.name}</h2>
         <h3>{member.role}</h3>
-        <p>{member.phone}</p>
-        <p>{member.mail}</p>
+        <p>✆ {member.phone}</p>
+        <p>✉ {member.mail}</p>
       </div>
       </div>
       </div>
