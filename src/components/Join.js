@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import '../styles/Join.css'
 
@@ -11,6 +11,10 @@ const Join = () => {
   const [uni, setUni] = useState('')
   const [field, setField] = useState('')
   const [gradyear, setGradyear] = useState(2022)
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
 
   const setNameChange = (event) =>{

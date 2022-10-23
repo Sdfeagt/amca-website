@@ -49,4 +49,24 @@
   display: flex;
   text-align: left;
   align-items: center;
+}
+.BoardPage .BoardSlideRev {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  padding-top: 10vh;
+}
+.BoardPage .BoardSlideRev img {
+  height: 35%;
+  width: 35%;
+  transition: transform 0.2s;
+}
+.BoardPage .BoardSlideRev img:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 1px rgb(85, 251, 220), 2px 2px rgb(85, 251, 220), 3px 3px rgb(85, 251, 220);
+}
+.BoardPage .BoardSlideRev .Content {
+  display: flex;
+  text-align: right;
+  align-items: center;
 }/*# sourceMappingURL=Board.css.map */

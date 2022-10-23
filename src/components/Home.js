@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import HomeSlide from './HomeSlide'
 
 import '../styles/Home.css'
@@ -6,7 +6,9 @@ import HomeSlideRev from './HomeSlideRev'
 
 
 const Home = () => {
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const aboutSlide = {
     big: "Important text for about slide about",
     small: "Less important text for about slide about",

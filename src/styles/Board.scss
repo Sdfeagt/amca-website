@@ -54,4 +54,28 @@
             align-items: center; 
         }
     }
+
+    .BoardSlideRev {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        padding-top: 10vh;
+        img{
+            height: 35%;
+            width: 35%;
+            transition: transform .2s;    
+        }
+        img:hover{
+            transform: scale(1.05); 
+            box-shadow:
+            1px 1px $green_main,
+            2px 2px $green_main,
+            3px 3px $green_main;
+        }
+        .Content{
+            display: flex;
+            text-align: right;
+            align-items: center; 
+        }
+    }
 }

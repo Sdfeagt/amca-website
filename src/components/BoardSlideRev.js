@@ -2,11 +2,10 @@ import React from 'react'
 
 import "../styles/Board.css"
 
-const BoardSlideRev = ({member}) => {
+const BoardSlide = ({member}) => {
   return (
-      <div className='BoardSlide'>
-      <img src={member.src} alt={member.alt}></img>
-      <div className='Content'>
+      <div className='BoardSlideRev'>
+        <div className='ContentRev'>
       <div>
         <h2>{member.name}</h2>
         <h3>{member.role}</h3>
@@ -14,8 +13,9 @@ const BoardSlideRev = ({member}) => {
         <p>{member.mail}</p>
       </div>
       </div>
+      <img src={member.src} alt={member.alt}></img>
       </div>
   )
 }
 
-export default BoardSlideRev
+export default BoardSlide

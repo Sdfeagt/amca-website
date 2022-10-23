@@ -1,9 +1,14 @@
 import React from 'react'
 import BoardSlide from './BoardSlide'
+import BoardSlideRev from './BoardSlideRev'
 
 import "../styles/Board.css"
+import { useEffect } from 'react'
 
 const Board = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const President = {
     src: "DeepankerPic.png",
     alt: "Deepanker",
@@ -52,9 +57,9 @@ const Board = () => {
     <div className='BoardPage'>
       <h1>Board of 2022</h1>
       <BoardSlide member={President}/>
-      <BoardSlide member={Social}/>
+      <BoardSlideRev member={Social}/>
       <BoardSlide member={IT}/>
-      <BoardSlide member={Treasurer}/>
+      <BoardSlideRev member={Treasurer}/>
       <BoardSlide member={Operations}/>
       </div>
   )
