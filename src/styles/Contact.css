@@ -1,0 +1,32 @@
+* {
+  font-family: "Helvetica";
+}
+
+.ContactPage {
+  background-color: rgb(35, 42, 45);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.ContactPage .WelcomeContact {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.ContactPage h1, .ContactPage h2, .ContactPage p {
+  color: rgb(85, 251, 220);
+  align-content: space-between;
+}
+.ContactPage h1 {
+  font-size: 400%;
+}
+.ContactPage h2 {
+  font-size: 200%;
+}
+.ContactPage .PresidentContact {
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.ContactPage .PresidentContact .PresidentInfo {
+  padding-top: 1%;
+}/*# sourceMappingURL=Contact.css.map */

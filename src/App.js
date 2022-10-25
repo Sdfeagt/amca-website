@@ -7,6 +7,7 @@ import Join from './components/Join'
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Events from "./components/Events"
+import Page404 from "./components/Page404"
 
 const App=()=> {
   return (
@@ -36,6 +37,9 @@ const App=()=> {
 
             <Route path = "/join" element={
                 <Join/>
+            }/>
+            <Route path='*' element={
+                <Page404/>
             }/>
 
         </Routes>

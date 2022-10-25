@@ -1,0 +1,32 @@
+@import "./Variables";
+
+.ContactPage{
+    background-color: $background;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    .WelcomeContact{
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    
+    h1,h2,p{
+        color: $green_main;
+        align-content: space-between;
+    }
+    h1{
+        font-size: 400%;
+    }
+    h2{
+        font-size: 200%;
+    }
+    .PresidentContact{
+        padding-top: 2%;
+        padding-bottom: 5%;
+        .PresidentInfo{
+            padding-top: 1%;
+        }
+    }
+}
