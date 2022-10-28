@@ -1,16 +1,30 @@
 const mongoose = require('mongoose')
 
 const schema = mongoose.Schema({
-  title: {
+  name: {
     type: String,
     required: true
   },
-  url: {
+  surname: {
     type: String,
     required: true
   },
-  author: String,
-  likes: Number,
+  mail: {
+    type: String,
+    required: true
+  },
+  uni: {
+    type: String,
+    required: true
+  },
+  field: {
+    type: String,
+    required: true
+  },
+  gradYear: {
+    type: String,
+    required: true
+  },
 })
 
 schema.set('toJSON', {
@@ -21,4 +35,4 @@ schema.set('toJSON', {
   }
 })
 
-module.exports = mongoose.model('Blog', schema)
+module.exports = mongoose.model('Person', schema)

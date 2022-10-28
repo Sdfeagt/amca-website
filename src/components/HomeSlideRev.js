@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom'
 import '../styles/Home.css'
 
 const HomeSlideRev = ({slide}) => {
-    console.log("Sending to", slide.send);
     const navigate = useNavigate()
     const handleOnClick = useCallback(() => navigate(`/${slide.send}`, {replace: true}), [slide.send, navigate]);
     return (

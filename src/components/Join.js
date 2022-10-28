@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import '../styles/Join.css'
 
 
-const Join = () => {
+const Join = ({createPerson}) => {
   const [name, setName] = useState('')
   const [surname, setSurname] = useState('')
   const [mail, setMail] = useState('')
@@ -53,6 +53,7 @@ setMail('')
 setUni('')
 setField('')
 setGradyear(2022)
+createPerson(personObject)
   }
 
 
