@@ -24,9 +24,4 @@ app.use(express.json())
 
 app.use('/api/persons', personsRouter)
 
-if (process.env.NODE_ENV === 'test') {
-  const testingRouter = require('./controllers/testing')
-  app.use('/api/testing', testingRouter)
-}
-
 module.exports = app
