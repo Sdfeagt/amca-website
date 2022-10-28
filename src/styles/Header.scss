@@ -1,7 +1,7 @@
 @import "./Variables";
 
 .Header{
-  background-color: $background;
+  background-color: $blue_main;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,7 +14,7 @@
 
 .Nav {   
     ul {
-        color: $green_main;
+        color: $White;
         justify-content: space-between;
         font-family:'Helvetica';
         display: inline-flex;
@@ -22,7 +22,7 @@
         padding-inline: 5px;
     }
     a {
-      color: $green_main;
+      color: $White;
       position: relative;
       text-decoration: none;
       display: block;
@@ -36,7 +36,7 @@
       width: 100%;
       height: 2px;
       border-radius: 4px;
-      background-color: $green_main;
+      background-color: $White;
       bottom: 0;
       left: 0;
       transform-origin: right;

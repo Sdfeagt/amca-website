@@ -5,8 +5,7 @@ const cors = require('cors')
 const mongoose = require('mongoose')
 require('express-async-errors')
 
-const blogsRouter = require('./controllers/persons')
-const { errorHandler, userExtractor } = require('./utils/middleware')
+const personsRouter = require('./controllers/persons')
 const logger = require('./utils/logger')
 
 logger.info('connecting to', config.MONGODB_URI)
@@ -23,13 +22,11 @@ app.use(cors())
 app.use(express.static('build'))
 app.use(express.json())
 
-app.use('/api/persons', userExtractor, blogsRouter)
+app.use('/api/persons', personsRouter)
 
 if (process.env.NODE_ENV === 'test') {
   const testingRouter = require('./controllers/testing')
   app.use('/api/testing', testingRouter)
 }
-
-app.use(errorHandler)
 
 module.exports = app

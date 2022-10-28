@@ -1,22 +1,22 @@
 @import "./Variables";
 
 .aboutPage{
-    background-color: $background;
+    background-color: $blue_main;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     h1{
         font-size: 400%;
-        color: $green_main;
+        color: $White;
 
     }
     h2{
         font-size: 200%;
-        color: $green_main;
+        color: $White;
     }
     p{
-        color: $green_main;
+        color: $White;
         padding-top: 3%;
         padding-bottom: 3%;
     }

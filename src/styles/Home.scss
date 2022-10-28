@@ -1,7 +1,7 @@
 @import "./Variables";
 
 .HomePage{
-    background-color: $background;
+    background-color: $blue_main;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -9,18 +9,18 @@
 
 
     h1 {
-        color: $green_main;
+        color: $White;
         align-content: space-between;
         font-size: 400%;
     }
     
     h2 {
-        color: $green_main;
+        color: $White;
         align-content: space-between;
         font-size: 200%;
     }
     p{
-        color: $green_main;
+        color: $White;
 
     }
     .WelcomeStuff{
@@ -28,20 +28,20 @@
         padding-bottom: 3%;
     }
     .Button{
-        background-color: $background;
+        background-color: $blue_main;
         cursor: pointer;
-        color: $green_main;
+        color: $White;
         width:140px;
         height:50px;
         border-width:1px;
         font-size:15px;
         border-width:1px;
-        border-color: $green_main;
+        border-color: $White;
 
     }
     .Button:hover{
-        background-color: $green_main;
-        color: $background;
+        background-color: $White;
+        color: $blue_main;
         transition:0.2s ease-in-out;
     }
 }

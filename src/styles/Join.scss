@@ -1,8 +1,8 @@
 @import "./Variables";
 .JoinPage{
-    background-color: $background;
+    background-color: $blue_main;
     h1{
-        color: $green_main;
+        color: $White;
         text-align: center;
         font-size: 400%;
 
@@ -29,19 +29,19 @@
         }
 
         .submitbtn{
-            background-color: $background;
+            background-color: $blue_main;
             cursor: pointer;
-            color: $green_main;
+            color: $White;
             width:140px;
             height:50px;
             border-width:1px;
             font-size:15px;
             border-width:1px;
-            border-color: $green_main;
+            border-color: $White;
         }
         .submitbtn:hover{
-            background-color: $green_main;
-            color: $background;
+            background-color: $White;
+            color: $blue_main;
             transition:0.2s ease-in-out;
         }
     }

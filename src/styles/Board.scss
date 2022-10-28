@@ -1,30 +1,30 @@
 @import "./Variables";
 
 .BoardPage{
-    background-color: $background;
+    background-color: $blue_main;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 
     h1 {
-        color: $green_main;
+        color: $White;
         align-content: space-between;
         font-size: 400%;
     }
     
     h2 {
-        color: $green_main;
+        color: $White;
         align-content: space-between;
         font-size: 300%;
     }
     p{
-        color: $green_main;
+        color: $White;
         padding-bottom: 5%;
 
     }
     h3{
-        color: $green_main;
+        color: $White;
         align-content: space-between;
         font-size: 150%;
         padding-top: 10%;
@@ -44,9 +44,9 @@
         img:hover{
             transform: scale(1.05); 
             box-shadow:
-            1px 1px $green_main,
-            2px 2px $green_main,
-            3px 3px $green_main;
+            1px 1px $White,
+            2px 2px $White,
+            3px 3px $White;
         }
         .Content{
             display: flex;
@@ -68,9 +68,9 @@
         img:hover{
             transform: scale(1.05); 
             box-shadow:
-            1px 1px $green_main,
-            2px 2px $green_main,
-            3px 3px $green_main;
+            1px 1px $White,
+            2px 2px $White,
+            3px 3px $White;
         }
         .Content{
             display: flex;

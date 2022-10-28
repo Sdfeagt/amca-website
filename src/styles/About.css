@@ -3,7 +3,7 @@
 }
 
 .aboutPage {
-  background-color: rgb(35, 42, 45);
+  background-color: rgb(0, 25, 236);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -11,14 +11,14 @@
 }
 .aboutPage h1 {
   font-size: 400%;
-  color: rgb(85, 251, 220);
+  color: rgb(255, 255, 255);
 }
 .aboutPage h2 {
   font-size: 200%;
-  color: rgb(85, 251, 220);
+  color: rgb(255, 255, 255);
 }
 .aboutPage p {
-  color: rgb(85, 251, 220);
+  color: rgb(255, 255, 255);
   padding-top: 3%;
   padding-bottom: 3%;
 }
