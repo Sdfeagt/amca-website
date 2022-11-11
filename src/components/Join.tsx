@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
 import { useState, useEffect } from 'react'
+import {addMember, Member} from"../backend/firebaseconfig"
 
 import '../styles/Join.css'
 
 
-const Join = ({createPerson}) => {
+const Join = () => {
   const [name, setName] = useState('')
   const [surname, setSurname] = useState('')
   const [mail, setMail] = useState('')
-  const [uni, setUni] = useState('')
-  const [field, setField] = useState('')
+  const [uni, setUni] = useState('Aalto University')
+  const [field, setField] = useState('ELEC')
   const [gradyear, setGradyear] = useState(2022)
 
   useEffect(() => {
@@ -37,23 +38,23 @@ const Join = ({createPerson}) => {
   }
 
   const addPerson = (event) =>{
-      //TODO: eventually export the logic to app.js. To be done before backend
+    console.log("In add person")
     event.preventDefault()
-const personObject = {
-  name: name,
-  surname: surname,
-  mail: mail,
-  uni: uni,
-  field:field,
-  gradYear: gradyear,
-}
-setName('')
-setSurname('')
-setMail('')
-setUni('')
-setField('')
-setGradyear(2022)
-createPerson(personObject)
+    const personObject: Member = {
+      name: name,
+      surname: surname,
+      mail: mail,
+      uni: uni,
+      field:field,
+      gard: gradyear,
+    }
+    setName('')
+    setSurname('')
+    setMail('')
+    setUni('Aalto University')
+    setField('ELEC')
+    setGradyear(2022)
+    addMember(personObject)
   }
 
 

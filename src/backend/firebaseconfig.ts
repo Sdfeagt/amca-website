@@ -1,8 +1,8 @@
-import { initializeApp } from "firebase/app";
+import { initializeApp, FirebaseOptions  } from "firebase/app";
 import { getFirestore, collection, addDoc} from 'firebase/firestore'
 
 
-const firebaseConfig = {
+const config: FirebaseOptions = {
   apiKey: process.env.FIREBASE_API,
   authDomain: process.env.AUTH_DOMAIN,
   projectId: process.env.PROJECT_ID,
@@ -12,7 +12,7 @@ const firebaseConfig = {
   measurementId: process.env.MEASURMENT_ID,
 };
 
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(config);
 const db = getFirestore(app)
 
 export interface Member {
@@ -25,8 +25,13 @@ export interface Member {
 }
 
 const addMember = async (memberData: Member) => {
+  console.log("In addMember")
+  console.log("Checking db", db)
+  console.log("Chack env...", process.env.FIREBASE_API)
   try {
-    const docRef = await addDoc(collection(db, 'members'), {
+    console.log("Trying...")
+    console.log(memberData)
+    const docRef = await addDoc(collection(db, 'Members'), {
       name: memberData.name,
       surname: memberData.surname,
       mail: memberData.mail,

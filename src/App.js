@@ -8,16 +8,10 @@ import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Events from "./components/Events"
 import Page404 from "./components/Page404"
-import personService from "./services/persons"
+
 
 const App=()=> {
 
-    const createPerson = async (person) => {
-        personService.create(person).then(createPerson => {
-        }).catch(error => {
-          console.log('creating a blog failed: ' + error.response.data.error, 'alert')
-        })
-      }
   return (
   <div className="App">
     <Header/>
@@ -44,7 +38,7 @@ const App=()=> {
             }/>
 
             <Route path = "/join" element={
-                <Join createPerson={createPerson}/>
+                <Join/>
             }/>
             <Route path='*' element={
                 <Page404/>
