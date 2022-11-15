@@ -27,7 +27,7 @@ export interface Member {
 const addMember = async (memberData: Member) => {
   console.log("In addMember")
   console.log("Checking db", db)
-  console.log("Chack env...", process.env.FIREBASE_API)
+  console.log("Check env...", process.env.REACT_APP_FIREBASE_API)
   try {
     console.log("Trying...")
     console.log(memberData)

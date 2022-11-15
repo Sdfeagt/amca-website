@@ -15,12 +15,11 @@
 
         label{
             display: block;
-            color: $green_main;
+            color: $White;
             padding: 1%;
             font-size: medium;
         }
         input, textarea, select{
-            display: block;
             width: 100%;
             font-family: inherit;
             font-size: large;
@@ -28,6 +27,10 @@
             background-color: rgb(218, 218, 218);
         }
 
+        .SubmitForm{
+            display: block;
+            text-align: center;
+        }
         .submitbtn{
             background-color: $blue_main;
             cursor: pointer;

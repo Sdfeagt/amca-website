@@ -64,19 +64,19 @@ const Join = () => {
     <form className='JoinForm' onSubmit={addPerson}>
     <label>
       Name:
-      <input type="text" name="name" value={name} id='name' onChange={setNameChange}/>
+      <input type="text" name="name" value={name} id='name' onChange={setNameChange} required/>
     </label>
     <label>
       Surname:
-      <input type="text" name="surname" value={surname} id='surname' onChange={setSurnameChange}/>
+      <input type="text" name="surname" value={surname} id='surname' onChange={setSurnameChange} required/>
     </label>
     <label>
       Email:
-      <input type="text" name="mail" value={mail} id='mail' onChange={setMailChange}/>
+      <input type="text" name="mail" value={mail} id='mail' onChange={setMailChange} required/>
     </label>
     <label>
       University:
-      <select onChange={setUniChange} id='uni' defaultValue='AaltoUni'>
+      <select onChange={setUniChange} id='uni' defaultValue='AaltoUni' required>
         <option value="AaltoUni">Aalto University</option>
         <option value="HelsinkiUni">Helsinki University</option>
         <option value="otherUni">Other</option>
@@ -84,7 +84,7 @@ const Join = () => {
     </label>
     <label>
       Field of study:
-      <select onChange={setFieldChange} id='field' defaultValue='ELEC'>
+      <select onChange={setFieldChange} id='field' defaultValue='ELEC' required>
         <option value="ELEC">ELEC</option>
         <option value="SCI">SCI</option>
         <option value="CHEM">CHEM</option>
@@ -96,7 +96,7 @@ const Join = () => {
     </label>
     <label>
       Graduation year:
-      <select onChange={setGradyearChange} id='grad' defaultValue='grad 2022'>
+      <select onChange={setGradyearChange} id='grad' defaultValue='grad 2022' required>
         <option value="grad 2022">2022</option>
         <option value="grad 2023">2023</option>
         <option value="grad 2024">2024</option>
@@ -107,7 +107,9 @@ const Join = () => {
         <option value="later">Other</option>
       </select>
     </label>
+    <div className='SubmitForm'>
     <input type="submit" value="Submit" className='submitbtn' />
+    </div>
   </form>
   </div>
   )
