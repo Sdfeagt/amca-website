@@ -13,7 +13,7 @@ const Footer = () => {
   }
   return (
     <div className='Footer'>
-        <img className='footer-logo' src='logotype.teal-removebg-preview.png' alt='logo footer'></img>
+        <img className='footer-logo' src='logotype.white.png' alt='logo footer'></img>
         <div className='footer-social'>
           <img className='footer-social-fb' src='fb.png' alt='facebo-social' onClick={sendFB}></img>
           <img className='footer-social-insta' src='insta.png' alt='insta-social' onClick={sendInsta}></img>

@@ -13,7 +13,7 @@ const Header = () => {
     <div className='Header'>
       <script src="anime.min.js"></script>
       <div className='Logo'>
-        <img src='logomark.teal__1_-removebg-preview.png' alt='Logo' width={100} height={100} onClick={handleOnClick}></img>
+        <img src='logomark.white.png' alt='Logo' width={100} height={100} onClick={handleOnClick}></img>
       </div>
       <div className='Nav'><NavBar/></div>
     </div>

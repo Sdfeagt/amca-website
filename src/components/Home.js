@@ -10,24 +10,24 @@ const Home = () => {
     window.scrollTo(0, 0)
   }, [])
   const aboutSlide = {
-    big: "Important text for about slide about",
-    small: "Less important text for about slide about",
+    big: "About us",
+    small: "Learn about us and our mission!",
     send: "about",
     src: 'IMG_6920.png',
     alt: 'Rafal pic'
   }
 
   const eventsSlide = {
-    big: "Important text for about slide events",
-    small: "Less important text for about slide events",
+    big: "Events",
+    small: "Get to know our events!",
     send: "events",
     src: 'IMG_689843.jpg',
     alt: 'Deep pic'
   }
 
   const boardSlide = {
-    big: "Important text for about slide board",
-    small: "Less important text for about slide board",
+    big: "Board of 2022",
+    small: "Find out the members of thi year's board.",
     send: "board",
     src: 'Board.jpg',
     alt: 'Board pic'
