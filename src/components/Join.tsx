@@ -18,22 +18,22 @@ const Join = () => {
   }, [])
   
 
-  const setNameChange = (event) =>{
+  const setNameChange = (event: { target: { value: React.SetStateAction<string>; }; }) =>{
     setName(event.target.value)
   }
   const setSurnameChange = (event) =>{
     setSurname(event.target.value)
   }
-  const setMailChange = (event) =>{
+  const setMailChange = (event: any) =>{
     setMail(event.target.value)
   }
-  const setUniChange = (event) =>{
+  const setUniChange = (event: any) =>{
     setUni(event.target.value)
   }
-  const setFieldChange = (event) =>{
+  const setFieldChange = (event: any) =>{
     setField(event.target.value)
   }
-  const setGradyearChange = (event) =>{
+  const setGradyearChange = (event: any) =>{
     setGradyear(event.target.value)
   }
 

@@ -36,7 +36,7 @@
   padding-top: 15vh;
 }
 .aboutPage .Content .textstuff {
-  width: 25%;
+  width: 50%;
 }
 .aboutPage .Content .textstuff p {
   font-size: 150%;
@@ -49,7 +49,7 @@
   padding-top: 15vh;
 }
 .aboutPage .ContentRev .textstuffRev {
-  width: 25%;
+  width: 50%;
 }
 .aboutPage .ContentRev .textstuffRev p {
   font-size: 150%;
