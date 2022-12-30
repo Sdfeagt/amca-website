@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script>
 
-      let favicon = document.getElementById('favicon')
-  
-      let dark = '%PUBLIC_URL%/favicon.ico'
-      let light = '%PUBLIC_URL%/faviconTeal.ico'
-  
-      favicon.href = window.matchMedia('(prefers-color-scheme: dark)').matches ? dark : light
-  
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
-  
-          favicon.href = event.matches ? dark : light
-  
-      })
-  
-  </script>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link
+  href="faviconTeal.ico"
+  rel="icon"
+  media="(prefers-color-scheme: light)"
+/>
+<link
+  href="favicon.ico"
+  rel="icon"
+  media="(prefers-color-scheme: dark)"
+/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
