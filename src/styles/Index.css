@@ -6,4 +6,8 @@
 
 html, body {
   overflow-x: hidden;
+}
+
+html {
+  overflow-y: visible;
 }/*# sourceMappingURL=Index.css.map */
