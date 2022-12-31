@@ -3,7 +3,7 @@
 }
 
 .aboutPage {
-  background-color: rgb(0, 25, 236);
+  background: rgb(0, 25, 236);
   display: flex;
   justify-content: center;
   flex-direction: column;

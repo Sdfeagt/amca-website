@@ -14,7 +14,7 @@ const HomeSlide = ({slide}) => {
     <div>
       <h2>{slide.big}</h2>
       <p>{slide.small}</p>
-      <button className='Button' onClick={handleOnClick}>Send me there!</button>
+      <button className='Button' onClick={handleOnClick}>Learn more</button>
     </div>
     </div>
     </div>

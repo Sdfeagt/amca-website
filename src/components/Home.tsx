@@ -11,7 +11,7 @@ const Home = () => {
   }, [])
   const aboutSlide = {
     big: "About us",
-    small: "Learn about us and our mission!",
+    small: "Welcome to the Aalto Management Consulting Association (AMCA)! We are a student-led organization at Aalto University, dedicated to connecting students interested in a career in consulting with consulting firms and providing them with the knowledge, skills, and resources they need to succeed in the field.",
     send: "about",
     src: 'IMG_6920.png',
     alt: 'Rafal pic'
@@ -19,7 +19,7 @@ const Home = () => {
 
   const eventsSlide = {
     big: "Events",
-    small: "Get to know our events!",
+    small: "Are you interested in learning more about the events that AMCA has to offer? From interactive CV Clinics to inspiring keynote speeches, our events provide valuable opportunities for our members to develop the skills and knowledge they need to succeed in the consulting industry. Learn more about the types of events we host and how you can get involved!",
     send: "events",
     src: 'IMG_689843.jpg',
     alt: 'Deep pic'
@@ -27,7 +27,7 @@ const Home = () => {
 
   const boardSlide = {
     big: "Board of 2022",
-    small: "Find out the members of thi year's board.",
+    small: "Meet the talented and dedicated individuals who make up the AMCA board of 2022! We are passionate about consulting and are working hard to provide valuable resources and opportunities to our fellow AMCA members. Get to know more about each board member and their role in the organization!",
     send: "board",
     src: 'Board.jpg',
     alt: 'Board pic'

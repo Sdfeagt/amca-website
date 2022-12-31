@@ -60,6 +60,7 @@
   box-shadow: 1px 1px rgb(85, 251, 220), 2px 2px rgb(85, 251, 220), 3px 3px rgb(85, 251, 220);
 }
 .HomeSlide .Content {
+  width: 50%;
   text-align: center;
   text-align: left;
 }
@@ -88,6 +89,7 @@
 }
 
 .ContentRev {
+  width: 50%;
   text-align: center;
   text-align: right;
 }

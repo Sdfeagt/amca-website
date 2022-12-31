@@ -1,1 +1,1 @@
-{"version":3,"sources":["Index.scss","Index.css"],"names":[],"mappings":"AAAA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;ACCJ;;ADEG;EACC,kBAAA;ACCJ;;ADCA;EACI,mBAAA;ACEJ","file":"Index.css"}
+{"version":3,"sources":["Variables.scss","Index.css","Index.scss"],"names":[],"mappings":"AAKA;EACI,wBAAA;ACJJ;;ACAA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;ADGJ;;ACAG;EACC,kBAAA;ADGJ;;ACDA;EACI,mBAAA;ADIJ","file":"Index.css"}
